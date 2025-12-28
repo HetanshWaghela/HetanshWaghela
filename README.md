@@ -99,7 +99,15 @@
 <br><br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=let's%20connect%20and%20build%20!&fontColor=ebdbb2&theme=gruvbox_dark" />
+ <picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=let's%20connect%20and%20build%20!&fontColor=ebdbb2&theme=gruvbox_dark" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=let's%20connect%20and%20build%20!&fontColor=24292f&theme=github" />
+  <img alt="Let's connect and build!"
+    src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=let's%20connect%20and%20build%20!&fontColor=24292f&theme=github" />
+
+</picture>
 </div>
 
 
